@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+
+        }
+
+        body {
+            font-size: 16px;
+            background-image: url('https://i.pinimg.com/564x/d4/5b/2a/d45b2a47be0a2b838435750a19ccb25a.jpg');
+        }
+
+        #main {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            padding-right: 17px;
+            box-sizing: content-box;
+            margin-top: 50px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color:white;
+        }
+
+        details {
+            width: 100%;
+            font-family: sans-serif;
+            border: 2px solid rgb(105, 241, 105);
+            padding: 5px;
+
+        }
+
+        details p {
+            padding: 20px;
+            color: black;
+            background: #fff;
+        }
+
+        summary {
+            padding: 20px;
+            border: 1px solid #9fb6ce;
+            outline: none;
+            cursor: pointer;
+            display: flex;
+            color:white;
+        }
+
+        section {
+            max-width: 80%;
+            width: 100%;
+        }
+
+        a {
+            color: rgb(47, 161, 236);
+            text-decoration: none;
+        }
+
+        h3 {
+            margin: 10px;
+        }
+
+        #image {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: 5px solid rgb(248, 227, 188);
+            border-radius: 50%;
+            box-shadow: 0px 0px 15px 10px #272525;
+        }
+
+        figcaption {
+            margin: 20px;
+            font-size: 20px;
+            width: 55%;
+            color:white;
+        }
+
+        #title {
+            color: skyblue;
+        }
+
+        b {
+            color: skyblue;
+        }
+
+        #tribute-info {
+            width: 50%;
+        }
+
+        @media screen and (max-width: 600px) {
+            figcaption {
+                width: 80%;
+                font-size: 15px;
+                
+            }
+
+            #tribute-info {
+                width: 100%;
+            }
+            
+            #main {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <main id="main">
+            <h1 id="title">Satoru Gojo </h1>
+            <p>I'm The Strongest</p>
+            <div id="img-div">
+                <figure>
+                    <img src="https://i.pinimg.com/736x/5b/ff/7c/5bff7c4790d0839444183a83baf8ae99.jpg" alt="" id="image" width="170" height="170">
+                    <figcaption id="img-caption"><q><b>Satoru Gojo</b>,is a fictional character in Gege Akutami's manga series Jujutsu Kaisen. He is a Jujutsu Sorcerer and teacher at Tokyo Metropolitan Curse Technical College. Gojo is considered the strongest modern sorcerer in the series</q>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <section id="tribute-info">
+                <details>
+                    <summary>What is Satoru Gojo known for?</summary>
+                    <p>
+                        Gojo is known for his superhuman levels of cursed energy. He also has a powerful cursed energy technique called Six Eyes, which is an innate ability passed down through the Gojo bloodline. This technique gives Gojo nearly supreme control over his cursed energy. 
+
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Why Gojo Is Powerful ?</summary>
+                    <p>
+                       Not only does Gojo possess multiple rare talents, but he also has a massive amount of cursed energy. Coupled with tremendous physical strength, intelligence and agility, it is no wonder why he is the strongest jujutsu sorcerer.
+                    </p>
+                </details>
+                <h3>
+                    to know more watch Jujutsu Kaisen on  "
+                    <a id="tribute-link" href="https://aniwatch.to/tv"
+                        target="_blank">Aniwatch.to</a>.
+                </h3>
+            </section>
+        </main>
+    </center>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
